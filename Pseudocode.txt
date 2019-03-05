@@ -1,0 +1,28 @@
+1. Newton Second Law
+input massa benda (m) 600kg
+input percepatan benda (a) 2 m/s2
+hitung hasil dengan rumus F=mxa
+cetak hasil
+selesai
+
+2.Tahun Kabisat
+input tahun
+jika tahun/4=0 dan tahun/100!=0 maka
+cetak 'tahun kabisat' 
+lainya jika tahun/4=0 dan tahun/100=0 dan tahun/400=0 maka 
+cetak 'tahun kabisat'
+lainya cetak 'bukan tahun kabisat'
+selesai
+
+3.Laundry Day
+masukan 1 baju ke mesin cuci
+selama baju di mesin cuci < 20 maka masukan 1 baju lagi ke mesin cuci
+jika baju di mesin cuci = 20 maka nyalakan mesin
+selesai
+
+4.Periksa Kuku
+periksa 1 murid
+jika kuku panjang maka "guru menghukum murid"
+lainnya maka "guru memuji murid"
+selama murid yang diperiksa < 40 maka periksa murid selanjutnya
+jika murid yang diperiksa = 40 maka selesai
