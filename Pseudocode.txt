@@ -1,4 +1,4 @@
-1. Newton Second Law
+1.Newton Second Law
 input massa benda (m) 600kg
 input percepatan benda (a) 2 m/s2
 hitung hasil dengan rumus F=mxa
