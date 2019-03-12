@@ -21,8 +21,6 @@ jika baju di mesin cuci = 20 maka nyalakan mesin
 selesai
 
 4.Periksa Kuku
-periksa 1 murid
-jika kuku panjang maka "guru menghukum murid"
-lainnya maka "guru memuji murid"
-selama murid yang diperiksa < 40 maka periksa murid selanjutnya
-jika murid yang diperiksa = 40 maka selesai
+selama murid <40 maka periksa 1 murid
+jika kuku panjang maka guru menghukum murid
+jika tidak guru memuji murid
