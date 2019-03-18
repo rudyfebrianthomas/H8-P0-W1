@@ -19,8 +19,11 @@ console.log('');
 //Nomor 3
 console.log('Nomor 3');
 var row3=5;
+
+for (var i=0;i<row3;i++){
 var b='';
-for (row3;row3>0;row3--){
-    b+='*';
+    for (var j=0; j<=i;j++){
+      b+='*';
+    }
     console.log(b);
 }
