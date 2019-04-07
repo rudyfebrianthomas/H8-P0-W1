@@ -1,28 +1,32 @@
 1.Newton Second Law
-input massa benda (m) 600kg
-input percepatan benda (a) 2 m/s2
-hitung hasil dengan rumus F=mxa
-cetak hasil
-selesai
+store a with 2m/s2
+store m with 600kg
+count F equals to m times a
+display F
 
 2.Tahun Kabisat
-input tahun
-jika tahun/4=0 dan tahun/100!=0 maka
-cetak 'tahun kabisat' 
-lainya jika tahun/4=0 dan tahun/100=0 dan tahun/400=0 maka 
-cetak 'tahun kabisat'
-lainya cetak 'bukan tahun kabisat'
-selesai
+store tahun with number
+if tahun divided by 4 is equals to 0 and tahun divided by 100 is not equals to 0 then
+display "tahun kabisat"
+else if tahun divided by 4 is equals to 0 and tahun divided by 100 is equals to 0 and tahun divided by 400 is equals to 0 then
+display "tahun kabisat"
+else 
+display "bukan tahun kabisat"
 
 3.Laundry Day
-masukan 1 baju ke mesin cuci
-selama baju di mesin cuci < 20 maka masukan 1 baju lagi ke mesin cuci
-jika baju di mesin cuci = 20 maka nyalakan mesin
-selesai
+store pakaian with 0
+while pakaian less than 21 then
+if pakaian is equals to 20 then
+display "nyalakan mesin"
+else 
+display "masukan pakaian lagi"
 
 4.Periksa Kuku
-input murid
-selama murid <=40 maka periksa 1 murid
-jika kuku panjang maka guru menghukum murid
-jika tidak guru memuji murid
-selesai
+store murid with 1
+store p with "kuku panjang"
+store tp with "tidak panjang"
+while murid is less than 41 then
+if murid is equals to p then
+display "guru menghukum murid"
+else
+display "guru memuji murid"
